@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Donations</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h1>Donations for Peewee</h1>
+    <ul id="navagation">
+        <li id="hide"><a href="thanks.html">Thank you</a></li>
+        <li id="home"><a href="index.html">Home</a></li>
+    </ul>
+</header>
+
+<body>
+<div id="container">
+    <div id="donationInfo">
+        <h2>Donation Tiers and Rewards:</h2>
+        <ul>
+            <li>$1 - $5: Keychain of Peewee!</li>
+            <li>$6 - $12: Coffee Mug!</li>
+            <li>$13 and Up: Keychain of Peewee, a Coffee Mug, and T-Shirt</li>
+        </ul>
+    </div>
+
+    <div id="pictures">
+        <h2>Please click the picture of Peewee to guess his favorite treat!</h2>
+        <img src="images/PeeweeOnChair.jpg" height="300" width="300" alt="cat on a chair" id="peewee" data-value="1"/>
+    </div>
+
+    <div id="question">
+        <p id="askQuestion"></p>
+        <div id="hideTextBox">
+        <label for="guess" class="biggerText">Type the letter of your guess here! (A, B, C, or D)</label>
+        <input type="text" id="guess">
+        <p id="displayResult"></p>
+        </div>
+    </div>
+
+    <div id="donations">
+        <form>
+            <h2>Required fields marked with an *</h2>
+            <fieldset>
+                <legend>Please enter the following for your donation amount:</legend>
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="amount">Amount *</label>
+                <input type="number" id="amount" name="amount" required>
+            </fieldset><br>
+            <input type="submit" id="donate" value="Submit">
+        </form>
+    </div>
+
+    <div id="displayPersonInfo">
+        <div><span id="personName"></span></div>
+        <div><span id="personEmail"></span></div>
+        <div><span id="personDonation"></span></div><br><br>
+        <div><span id="outputGift"></span></div>
+    </div>
+</div>
+
+<footer>
+    Created By: Zachary Huba<br>
+    Javascript 2020 Final Project
+</footer>
+</body>
+</html>

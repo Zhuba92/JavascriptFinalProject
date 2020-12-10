@@ -1,0 +1,149 @@
+fieldset
+{
+    width: 30%;
+}
+
+img
+{
+    cursor: pointer;
+}
+
+footer
+{
+    margin-top: 10px;
+}
+
+.biggerText
+{
+    font-size: larger;
+    font-weight: bold;
+}
+
+body
+{
+    font-family: oswald, "Arial Narrow", sans-serif;
+    background-image: url(catpawwallpaper.jpg);
+}
+
+#hide, #home
+{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: groove;
+    border-color: navy;
+    background-color: darkseagreen;
+    font-family: Chiller, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+a, u
+{
+    text-decoration: none;
+}
+
+#home
+{
+    width: 120px;
+    margin-left: 10px;
+}
+
+header
+{
+
+    margin-bottom: 0;
+    text-align: center;
+    color: black;
+    font-family: Chiller, sans-serif;
+    font-size: xx-large;
+    padding-top: 1px;
+    height: 130px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#navagation
+{
+    margin-right: auto;
+    margin-left: 0;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 2px;
+    width: 85%;
+}
+
+footer
+{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: darkseagreen;
+    font-family: Chiller, sans-serif;
+    font-size: large;
+    margin-top: 0;
+    width: 20%;
+    border-style: groove;
+    border-color: navy;
+    border-radius: 5px;
+}
+
+#container
+{
+    border-style: solid;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(80, 80, 80, 0.97);
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+h1
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: darkseagreen;
+    border-style: groove;
+    border-color: navy;
+    border-radius: 5px;
+}
+
+fieldset
+{
+    background-color: darkseagreen;
+    border-style: solid;
+    border-color: black;
+    border-radius: 3px;
+}
+
+legend
+{
+    font-weight: bold;
+    background-color: darkseagreen;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+img
+{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: darkseagreen;
+}
+
+#displayResult
+{
+    width: 30%;
+    padding-left: 3px
+}
+
+
