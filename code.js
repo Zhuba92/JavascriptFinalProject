@@ -55,34 +55,6 @@ $(document).ready(
             }
         );
 
-        function displayUserInfo()
-        {
-            $("#donations").hide();
-            $("#displayPersonInfo").show();
-            var name = $("#name").val();
-            $("#personName").text(name);
-
-            var email = $("#email").val();
-            $("#personEmail").text(email);
-
-            var amount = parseInt($("#amount").val());
-            $("#personDonation").text(`$${amount}`);
-
-            if(amount >= 1 && amount < 6)
-            {
-                $("#outputGift").text(`Thank you very much ${name} for your donation of $${amount}! We will be reaching out to send you your Keychain of Peewee.`);
-            }
-            else if (amount >= 6 && amount < 13)
-            {
-                $("#outputGift").text(`Thank you very much ${name} for your donation of $${amount}! We will be reaching out to send you your Coffee Mug.`);
-            }
-            else if (amount >= 13)
-            {
-                $("#outputGift").text(`Thank you very much ${name} for your donation of $${amount}! We will be reaching out to send you your Keychain of Peewee, Coffee Mug, and T-Shirt.`);
-            }
-        }
-
-
         function checkAnswer()
         {
             var initialAnswer = $("#guess").val();
